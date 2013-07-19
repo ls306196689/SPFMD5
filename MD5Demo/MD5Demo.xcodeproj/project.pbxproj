@@ -15,8 +15,6 @@
 		C524B75E175639F700285007 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C524B75C175639F700285007 /* MainMenu.xib */; };
 		C524B76717563A2800285007 /* CCMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C524B76517563A2800285007 /* CCMD5.cpp */; };
 		C524B76A17563A6100285007 /* SPFController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C524B76917563A6100285007 /* SPFController.mm */; };
-		C524B77117563E5E00285007 /* DESEncrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C524B76C17563E5E00285007 /* DESEncrypt.cpp */; };
-		C524B77217563E5E00285007 /* FileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C524B77017563E5E00285007 /* FileManager.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +35,6 @@
 		C524B76617563A2800285007 /* CCMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMD5.h; sourceTree = "<group>"; };
 		C524B76817563A6100285007 /* SPFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFController.h; sourceTree = "<group>"; };
 		C524B76917563A6100285007 /* SPFController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SPFController.mm; sourceTree = "<group>"; };
-		C524B76C17563E5E00285007 /* DESEncrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DESEncrypt.cpp; sourceTree = "<group>"; };
-		C524B76D17563E5E00285007 /* DESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncrypt.h; sourceTree = "<group>"; };
-		C524B76E17563E5E00285007 /* DESHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESHeaders.h; sourceTree = "<group>"; };
-		C524B76F17563E5E00285007 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
-		C524B77017563E5E00285007 /* FileManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FileManager.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +88,6 @@
 		C524B74D175639F600285007 /* MD5Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C524B76B17563E5E00285007 /* DesClasses */,
 				C524B76417563A1200285007 /* md5lib */,
 				C524B759175639F600285007 /* SPFAppDelegate.h */,
 				C524B75A175639F600285007 /* SPFAppDelegate.m */,
@@ -126,18 +118,6 @@
 				C524B76617563A2800285007 /* CCMD5.h */,
 			);
 			path = md5lib;
-			sourceTree = "<group>";
-		};
-		C524B76B17563E5E00285007 /* DesClasses */ = {
-			isa = PBXGroup;
-			children = (
-				C524B76C17563E5E00285007 /* DESEncrypt.cpp */,
-				C524B76D17563E5E00285007 /* DESEncrypt.h */,
-				C524B76E17563E5E00285007 /* DESHeaders.h */,
-				C524B76F17563E5E00285007 /* FileManager.h */,
-				C524B77017563E5E00285007 /* FileManager.mm */,
-			);
-			path = DesClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +189,6 @@
 				C524B75B175639F600285007 /* SPFAppDelegate.m in Sources */,
 				C524B76717563A2800285007 /* CCMD5.cpp in Sources */,
 				C524B76A17563A6100285007 /* SPFController.mm in Sources */,
-				C524B77117563E5E00285007 /* DESEncrypt.cpp in Sources */,
-				C524B77217563E5E00285007 /* FileManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +322,7 @@
 				C524B763175639F700285007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
